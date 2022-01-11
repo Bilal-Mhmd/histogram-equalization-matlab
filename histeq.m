@@ -1,7 +1,5 @@
 
-%NAME: Bilal Mohammad Hoor
-%ID: 171085
-%Supervisor: Dr. Hashem Hesham Tamimi
+
 
 input_img = imread('outdoor.png');
 ref_img = imread('people.png');
@@ -70,5 +68,6 @@ subplot(2,2,3); imshow(eq_img,[]);title('o/p reference image');
 subplot(2,2,4) ;bar(cdfr_rounded);title('o/p reference image histogram');
 
 %done 30/11/2021
+% Bilal Hoor
 %email: bilalahoor@gmail.com
 % ^_^
